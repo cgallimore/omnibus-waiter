@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Perform necessary waiter removal steps
+# after package is uninstalled.
+#
+
+echo "waiter has been uninstalled!"
+
+exit 0
