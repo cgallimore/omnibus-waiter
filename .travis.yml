@@ -6,7 +6,7 @@ before_script:
   - sudo mkdir -p /var/cache/omnibus/cache
   - sudo mkdir -p /var/cache/omnibus/build/waiter
   - sudo mkdir -p /var/cache/omnibus/src/preparation
-  - sudo chmod 777 /var/cache/omnibus/
+  - sudo chmod -R 777 /var/cache/omnibus/*
 script: 
   - bundle install --binstubs && bin/omnibus build project waiter
 
