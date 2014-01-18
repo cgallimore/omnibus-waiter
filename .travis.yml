@@ -2,5 +2,6 @@ language: ruby
 rvm:
   - 1.9.3
 script: 
-  - bundle install --binstubs && sudo bin/omnibus build project waiter
+  - sudo mkdir /var/cache/omnibus
+  - bundle install --binstubs && bin/omnibus build project waiter
 
