@@ -3,6 +3,7 @@ rvm:
   - 1.9.3
 before_script:
   - sudo mkdir -p /var/cache/omnibus/src
+  - sudo mkdir -p /var/cache/omnibus/cache
   - sudo mkdir -p /var/cache/omnibus/build/waiter
 script: 
   - bundle install --binstubs && bin/omnibus build project waiter
