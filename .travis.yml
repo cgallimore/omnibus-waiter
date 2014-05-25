@@ -9,5 +9,5 @@ before_script:
   - sudo chmod 777 /var/cache/omnibus/
   - sudo chmod 777 /opt/waiter/
 script: 
-  - bundle install --binstubs && bin/omnibus build project waiter
+  - bundle install --binstubs && bin/omnibus build waiter
 
