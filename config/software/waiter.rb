@@ -5,7 +5,7 @@ dependency "ruby"
 dependency "rubygems"
 dependency "gems"
 
-source :git => "https://github.com/sonian/sa-waiter.git"
+source :git => "https://github.com/cgallimore/sa-waiter.git"
 
 relative_path "waiter"
 
